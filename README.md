@@ -1,8 +1,8 @@
 # UoA_JWPlayer
 
-Some people prefer watch streaming recordings over downloading. Unfortunately, JWPlayer for UoA is quite outdated.
+Some people prefer watching recordings online over downloading. Unfortunately, JWPlayer for UoA is quite outdated.
 
-I have made some improvements of UX with a simple Userscript. 
+I have made some improvements of UX with a really simple Userscript. 
 
 ## Why should I use your script?
 1. Black background and larger scren to help you focus on your video
