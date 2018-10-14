@@ -13,6 +13,6 @@ I have made some improvements of UX with a really simple Userscript.
 ## How can I use your script?
 1. Go to https://tampermonkey.net
 2. Install it
-3.1 Manually copy the codes, create new script and then paste. 
-3.2 OR just click 'RAW' button.
-4. Happy Study :smile:
+3. Manually copy the codes, create new script and then paste. 
+4. OR just click 'RAW' button (recommended, since you can also get updates later)
+5. Happy Study :smile:
