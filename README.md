@@ -8,7 +8,7 @@ I have made some improvements of UX with a really simple Userscript.
 1. Black background and larger screen to help you focus on your video
 2. Auto-play in HD (check web browser settings first), you never need to change video quality settings.
 3. Auto-save the last time you watched
-4. Enalbes PiP (MacOS only)
+4. Enables PiP (MacOS only)
 
 ## How can I use your script?
 1. Go to https://tampermonkey.net
