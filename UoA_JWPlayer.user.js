@@ -5,7 +5,7 @@
 // @version      2.4.2.1
 // @description  Add PiP function and change CSS
 // @icon
-// @match        https://raw.githubusercontent.com/samnoh/UoA_JWPlayer/master/UoA_JWPlayer.user.js#bypass=true
+// @match        https://raw.githubusercontent.com/samnoh/UoA_JWPlayer/master/UoA_JWPlayer.user.js
 // @include      https://mediastore.auckland.ac.nz/*
 // ==/UserScript==
 
