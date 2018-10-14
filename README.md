@@ -1,6 +1,7 @@
 # UoA_JWPlayer
 
-Some people prefer watching recordings online over downloading. Unfortunately, JWPlayer for UoA is quite outdated.
+Some people prefer watching recordings online over downloading. 
+Unfortunately, JWPlayer for University of Auckland is quite outdated.
 
 I have made some improvements of UX with a really simple Userscript. 
 
