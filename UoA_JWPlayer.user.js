@@ -22,7 +22,7 @@ jwplayer('video').onReady( function () { // add pip button
 (!localStorage.getItem(window.location.href)) ? jwplayer().seek(41) : jwplayer().seek(localStorage.getItem(window.location.href));
 
 setInterval( function() {
-	jwplayer().getPosition() == jwplayer().getDuration() ? localStorage.setItem(window.location.href, '41') : localStorage.setItem(window.location.href, jwplayer().getPosition());
+	jwplayer().getPosition() == jwplayer().getDuration() ? localStorage.removeItem(window.location.href) : localStorage.setItem(window.location.href, jwplayer().getPosition());
 }, 1000); // every one sec
 
 // title
