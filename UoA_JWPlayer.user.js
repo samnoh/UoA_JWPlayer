@@ -2,7 +2,7 @@
 // @name         Make JW Player for UoA recordings Better
 // @namespace    Sam
 // @author       samnoh
-// @version      2.4.2.1
+// @version      2.4.3
 // @description  Add PiP function and change CSS
 // @icon
 // @match        https://raw.githubusercontent.com/samnoh/UoA_JWPlayer/master/UoA_JWPlayer.user.js
