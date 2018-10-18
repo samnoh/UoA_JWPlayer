@@ -2,7 +2,7 @@
 // @name         Make JW Player for UoA recordings Better
 // @namespace    Sam
 // @author       samnoh
-// @version      2.5.1
+// @version      2.5.2
 // @description  Add PiP function and change CSS
 // @icon
 // @match        https://raw.githubusercontent.com/samnoh/UoA_JWPlayer/master/UoA_JWPlayer.user.js
@@ -13,7 +13,8 @@ const jw = jwplayer();
 const quality = 0; // quality 0: HD, 1: SD, ...
 const bg_color = 'black';
 
-const rec_url = parseLink(window.location.href); // current url
+const current_url = window.location.href;
+const rec_url = parseLink(current_url); // current url
 
 jw.play(); // autoplay
 jw.setCurrentQuality(quality); 
@@ -24,12 +25,12 @@ jw.addButton('', 'PiP', () => { // add pip button
 
 
 // video automatically starts from 42 seconds to skip the opening
-(!localStorage.getItem(rec_url)) ? jw.seek(42) : jw.seek(localStorage.getItem(rec_url));
+(!localStorage.getItem(current_url)) ? jw.seek(42) : jw.seek(localStorage.getItem(current_url));
 
 
 // auto save current position
 setInterval( () => {
-	jw.getPosition() == jw.getDuration() ? localStorage.removeItem(rec_url) : localStorage.setItem(rec_url, jw.getPosition());
+	jw.getPosition() == jw.getDuration() ? localStorage.removeItem(current_url) : localStorage.setItem(current_url, jw.getPosition());
 }, 1500); // every 1.5 seconds
 
 
