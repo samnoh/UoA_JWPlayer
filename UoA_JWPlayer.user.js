@@ -14,7 +14,6 @@ const quality = 0; // quality 0: HD, 1: SD, ...
 const bg_color = 'black';
 
 const current_url = window.location.href;
-const rec_url = parseLink(current_url); // current url
 
 jw.play(); // autoplay
 jw.setCurrentQuality(quality); 
@@ -46,7 +45,7 @@ const parseLink = (rec_link = '') => rec_link
 		return acc;
 	},[]);
 
-
+const rec_url = parseLink(current_url); // current url
 const subject_title = rec_url[0], date = rec_url[1];
 document.getElementsByTagName('title')[0].textContent = subject_title + ' ' + date.slice(6,8) + '/' + date.slice(4,6) + ' ' + date.slice(8,10) + ':00';
 
