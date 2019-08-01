@@ -1,4 +1,4 @@
-# UoA_JWPlayer
+# UoA JWPlayer
 
 Some people prefer watching recordings online over downloading. 
 Unfortunately, JWPlayer for University of Auckland is quite outdated.
